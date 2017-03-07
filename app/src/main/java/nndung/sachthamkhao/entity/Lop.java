@@ -4,7 +4,7 @@ package nndung.sachthamkhao.entity;
  * Created by nndun on 3/6/2017.
  */
 
-public class Lop {
+public class Lop implements java.io.Serializable{
 
     public Lop(int viTri, String tenLop, int id) {
         this.viTri = viTri;
